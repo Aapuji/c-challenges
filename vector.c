@@ -1,4 +1,4 @@
-#include "array.h"
+#include "vector.h"
 
 vector vector_factory(int arr[], int size) {
     vector m = {
