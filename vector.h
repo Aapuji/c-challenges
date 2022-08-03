@@ -1,5 +1,5 @@
-#ifndef RESIZABLE_ARRAY
-#define RESIZABLE_ARRAY
+#ifndef VECTOR
+#define VECTOR
 
 #include <stdlib.h>
 
