@@ -1,15 +1,4 @@
-#ifndef RESIZABLE_ARRAY
-#define RESIZABLE_ARRAY
-
-#include <stdlib.h>
-
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct {
-    int *values;
-    int length;
-} vector;
+#include "array.h"
 
 vector vector_factory(int arr[], int size) {
     vector m = {
@@ -57,5 +46,3 @@ void insert(vector *vector, int index, int value) {
     vector->values = m;
     vector->length++;
 }
-
-#endif
