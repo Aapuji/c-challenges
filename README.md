@@ -1,2 +1,2 @@
-# Resizable Array
-A resizable array implementation in C.
+# Resizable Array / Vector
+A vector (or resizable array) implementation in C.
