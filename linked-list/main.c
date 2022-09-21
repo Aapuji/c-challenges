@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "linked-list.h"
 
+// Just some code to show it's working
 int main(void) {
     linked ll = linked_factory(1);
     append(&ll, 2);
