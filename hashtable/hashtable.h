@@ -1,4 +1,6 @@
-// Hash Table Implementation in C
+#ifndef HASHTABLE_H
+#define HASHTABLE_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
